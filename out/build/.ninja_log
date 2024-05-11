@@ -1,0 +1,17 @@
+# ninja log v5
+4	434	7371118417701500	CoinFlip_autogen/timestamp	bb68105662fa7717
+4	434	7371118417701500	CoinFlip_autogen/mocs_compilation.cpp	bb68105662fa7717
+4	434	7371118417701500	F:/code_review/Qt-WorkSpace/fight/CoinFlip/out/build/CoinFlip_autogen/timestamp	bb68105662fa7717
+4	434	7371118417701500	F:/code_review/Qt-WorkSpace/fight/CoinFlip/out/build/CoinFlip_autogen/mocs_compilation.cpp	bb68105662fa7717
+435	884	7371118423043504	CoinFlip_autogen/EWIEGA46WW/qrc_Resource.cpp	d4442d718393a09f
+435	884	7371118423043504	F:/code_review/Qt-WorkSpace/fight/CoinFlip/out/build/CoinFlip_autogen/EWIEGA46WW/qrc_Resource.cpp	d4442d718393a09f
+904	2514	7371118439374042	CMakeFiles/CoinFlip.dir/MyPushButton.cpp.obj	fe5cb51b12fa8c27
+919	2601	7371118440220187	CMakeFiles/CoinFlip.dir/main.cpp.obj	b64fe8421868d771
+899	2624	7371118440478597	CMakeFiles/CoinFlip.dir/MyCoin.cpp.obj	8d6979a213d5e464
+889	2638	7371118440603871	CMakeFiles/CoinFlip.dir/ChooseLevelWindow.cpp.obj	1319f9c1da225de9
+914	2667	7371118440894568	CMakeFiles/CoinFlip.dir/dataconfig.cpp.obj	71f82104bb0a5adb
+894	2697	7371118441201701	CMakeFiles/CoinFlip.dir/MainWindow.cpp.obj	ca6356cb23696ecc
+909	2722	7371118441442262	CMakeFiles/CoinFlip.dir/PlayWindow.cpp.obj	718bd0539e736a84
+884	2741	7371118441636182	CMakeFiles/CoinFlip.dir/CoinFlip_autogen/mocs_compilation.cpp.obj	eb648b16683c69f3
+924	4246	7371118456526253	CMakeFiles/CoinFlip.dir/CoinFlip_autogen/EWIEGA46WW/qrc_Resource.cpp.obj	59f17abf7531c859
+4246	4904	7371118463104708	CoinFlip.exe	133b7d33d00b2521

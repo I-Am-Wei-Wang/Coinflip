@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(CoinFlip VERSION 1.0 LANGUAGES CXX)
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTORCC ON)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt6 REQUIRED Widgets UiTools Multimedia)
+
+file(GLOB COINFLIP_SOURCES_CPP ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
+file(GLOB COINFLIP_SOURCES_H ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
+file(GLOB COINFLIP_SOURCES_UI ${CMAKE_CURRENT_SOURCE_DIR}/*.ui)
+# WIN32 的作用 ： 不显示黑窗口
+add_executable(${PROJECT_NAME} WIN32 ${COINFLIP_SOURCES_CPP} ${COINFLIP_SOURCES_H} ${COINFLIP_SOURCES_UI} "Resource.qrc")
+
+
+target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets Qt6::UiTools Qt6::Multimedia)
